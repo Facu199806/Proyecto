@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos</title>
+    <!--Enlace a Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css"> <!-- Estilos personalizados en CSS -->
+</head>
+<body>
+    <!-- Contenido principal -->
+    <main>
+        <header>
+            <h1>Aquí verás todo el material sobre el curso y los recursos accesibles</h1>
+        </header>
+        
+        <!-- Navegación hacia los demás archivos html -->
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <p><strong>¿Qué diferencias hay entre el front-end y el back-end?</strong></p>
+        <img src="../img/desarrolloweb-recurso-01.jpg" alt="Diferencias entre Front-end y Back-end" width="500" height="315" loading="lazy">
+        <p>
+            A la hora de crear aplicaciones y sitios web completos, es de vital importancia conocer las diferencias entre Front end y Back end. En resumidas cuentas,<br>
+            el Front end y Back end desempeñan roles complementarios pero distintos en el desarrollo web. Mientras que el Front end se preocupa por ofrecer una interfaz atractiva y amigable,<br>
+            el Back end se enfoca en garantizar que las operaciones internas sean eficientes y seguras.<br>
+            <br>
+            El Front end se refiere a la parte visible de una aplicación o sitio web, aquella con la que los usuarios interactúan directamente. Es responsable de la presentación visual, 
+            <br>la disposición de los elementos en pantalla y la interacción con los usuarios. Utiliza tecnologías como HTML para estructurar el contenido, CSS para el diseño y la apariencia,<br>
+            y JavaScript para agregar interactividad y dinamismo.<br>
+            <br>
+            Por otro lado, el Back end es la parte invisible que opera detrás de la escena. Se encarga de gestionar la lógica de negocio, procesar datos y administrar la seguridad. Utiliza lenguajes <br>
+            de programación como Python, PHP o Node.js para crear la funcionalidad interna de la aplicación. Además, administra las bases de datos donde se almacena la información, autentica a los usuarios y garantiza la seguridad de los datos.
+        </p>
+
+        <h2>Recibe más novedades completando el siguiente formulario:</h2>
+        <form action="/submit" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="region">Región:</label>
+            <input type="text" id="region" name="region" required>
+            <br>
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <input type="submit" value="Enviar">   
+            <!--Más adelante con lo que vaya avanzando con la página, quiero que el este botón de enviar te redirija otra página-->
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p><strong>© 2024 Facundo E. Vilches</strong> - Todos los derechos reservados</p><!--Al cliquear en el correo, el mismo te lleva a enviar uno al destinatario que se encuentra en él-->
+        <p>Correo: <a href="mailto:facundovilches1998@gmail.com">facundovilches1998@gmail.com</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
